@@ -1,0 +1,34 @@
+<div>
+	<form>
+		<div>
+			<label for="_email">邮箱</label>
+			<input type="email" id="_email" ng-model="vm.form.email" ng-required="true">
+		</div>
+		<div>
+			<label for="_nickName">昵称</label>
+			<input type="text" id="_nickName">
+		</div>
+		<div>
+			<label for="_password">密码</label>
+			<input type="password" id="_password">
+		</div>
+		<div>
+			<label for="_retypedPassword">确认密码</label>
+			<input type="password" id="_retypedPassword" yc-field-error ng-required="true" ng-model="vm.retypedPassword" yc-assert-same-as="vm.form.password" />
+		</div>
+		<div>
+			<label for="_captcha">验证码</label>
+			<input type="text" id="_captcha">
+			<img src="" alt="验证码">
+		</div>
+		<div>
+			<input type="checkbox" id="_accepted" ng-model="vm.accepted" yc-assert-same-as="true" />
+			<label for="_accepted">我已同意
+				<a href="">用户服务协议</a>
+			</label>
+		</div>
+		<div>
+			<button type="submint" ng-disabled="form.$invalid">提交</button>
+		</div>
+	</form>
+</div>

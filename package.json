@@ -1,0 +1,20 @@
+{
+  "name": "online-forum",
+  "version": "1.0.0",
+  "description": "this is building for studying angularJS!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yc",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-hint": "^0.3.8",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
