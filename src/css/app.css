@@ -1,0 +1,73 @@
+@import "../biz/login/css/login.css";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.ad-topbar {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #121f42;
+}
+
+.logo {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.ad-navbar-item {
+	margin-right: 20px;
+}
+
+.ad-navbar-item a {
+	color: #aaa;
+}
+
+.ad-navbar-item a:hover {
+	background-color: #122f42;
+}
+
+.update-btn {
+	font-size: 16px;
+}
+
+.exit-btn {
+	font-size: 16px;
+}
+
+.ad-main {
+	margin: 0;
+	padding: 0;
+}
+
+.ad-menu {
+	float: left;
+	width: 150px;
+	background-color: #bbb;
+	position: absolute;
+    top: 70px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.ad-menu-item {
+	list-style: none;
+	padding: 5px;
+}
+
+.ad-menu-item a {
+	font-size: 14px;
+	color: black;
+}
+
+.ad-main-content {
+	position: absolute;
+	top: 70px;
+	bottom: 0px;
+	left: 150px;
+}
