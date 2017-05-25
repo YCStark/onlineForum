@@ -4,18 +4,26 @@
   "description": "this is building for studying angularJS!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp default"
   },
+  "keywords": [
+    "webpack"
+  ],
   "author": "yc",
   "license": "ISC",
   "devDependencies": {
     "angular-hint": "^0.3.8",
+    "css-loader": "^0.28.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
     "gulp-load-plugins": "^1.5.0",
     "gulp-webserver": "^0.9.1",
-    "mockjs": "^1.0.1-beta3"
+    "mockjs": "^1.0.1-beta3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.5.1",
+    "webpack-stream": "^3.2.0"
   },
   "dependencies": {
     "angular": "^1.6.4",
